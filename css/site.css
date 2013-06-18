@@ -1,5 +1,7 @@
 
-h1 a, h2 a {
+h1 a:link, h1 a:active, h1 a:visited,
+h2 a:link, h2 a:active, h2 a:visited
+{
     color: #000;
     text-decoration: none;
 }
@@ -13,4 +15,19 @@ header {
     background: url(../img/CoffeeRing.png) no-repeat top right;
     height: 160px;
     padding-top: 40px;
+}
+
+a:link, a:active, a:visited {
+    color: #ff1414;
+}
+
+footer {
+    background-color: #000;
+    color: #bebebe;
+    height: 20px;
+}
+
+footer a:link, footer a:active, footer a:visited {
+    color: #bebebe;
+    text-decoration: underline;
 }
