@@ -11,6 +11,16 @@ h1 a:hover, h2 a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
 header {
     background: url(../img/CoffeeRing.png) no-repeat top right;
     height: 160px;
@@ -34,4 +44,12 @@ footer p {
 footer a:link, footer a:active, footer a:visited {
     color: #bebebe;
     text-decoration: underline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p.postMeta {
+    color: #aaa;
 }
